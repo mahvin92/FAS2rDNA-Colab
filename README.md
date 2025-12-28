@@ -45,9 +45,9 @@ iii) Load FAS2rDNA-Colab directly from an opened Colab notebook by running the c
 ```
 from IPython.display import HTML
 
-notebook = "Covary_v2_1.ipynb" # -> change the version here
-repo = "mahvin92/Covary"
-folder = "notebook"
+notebook = "FAS2rDNA-colab_v1_0.ipynb" # -> change the version here
+repo = "mahvin92/FAS2rDNA-Colab"
+folder = "ipynb"
 
 colab_url = f"https://colab.research.google.com/github/{repo}/blob/main/{folder}/{notebook}"
 HTML(f'<a href="{colab_url}" target="_blank">Open {notebook} in Google Colab</a>')
