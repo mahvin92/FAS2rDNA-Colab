@@ -39,8 +39,11 @@ The seq_loc field MUST assume ONLY the following format: ```genome_assembly:chro
 ### 2. Performing a multi-FASTA reconstruction
 #### a. Launching the software:
 The FAS2rDNA-Colab can be opened in several ways:
+
 i) Launch from the shareable link here: [FAS2rDNA-Colab](https://colab.research.google.com/drive/1jy7oSK5UXCtEgCVADwXUXijXvNBL6JBu?usp=sharing)
-ii) Download the FAS2rDNA-Colab notebook from the ```ipynb``` folder on [GitHub/FAS2rDNA-Colab](https://github.com/mahvin92/FAS2rDNA-Colab) and manually upload that in your Colab workspace ```File --> Upload Notebook```.
+
+ii) Download the FAS2rDNA-Colab notebook from the ```ipynb``` folder on [GitHub/FAS2rDNA-Colab](https://github.com/mahvin92/FAS2rDNA-Colab/tree/main/ipynb) and manually upload that in your Colab workspace ```File --> Upload Notebook```.
+
 iii) Load FAS2rDNA-Colab directly from an opened Colab notebook by running the code below:
 ```
 from IPython.display import HTML
@@ -96,22 +99,22 @@ The following genome assemblies are currently supported in the v.1.0 of FAS2rDNA
 - Yeast (*S. cerevisiae*): sacCer1, sacCer2, sacCer3
 
 ## Troubleshooting
-#### No FASTA output generated
+##### 1. No FASTA output generated
 - Verify that output directories exist, unchanged, and all cells/steps are sequentially executed.
 - Confirm that the *seq_loc* column exists in your data and all assemblies referenced in are supported or validated
 - Refresh your File browser to force Colab to load your files
 
-#### FAS2rDNA is skipping entries
+##### 2. FAS2rDNA is skipping entries
 - Confirm that those entries contain a valid and well-formatted *seq_loc* data
 
-#### Empty or truncated sequences
+##### 3. Empty or truncated sequences
 - Check coordinate validity (start < end, within chromosome bounds)
 - Ensure reference FASTA files are complete and indexed
 
-#### Incorrect strand orientation
+##### 4. Incorrect strand orientation
 - Confirm the strand field in *seq_loc* is correctly specified as + or -
 
-#### Performance bottlenecks with large datasets
+##### 5. Performance bottlenecks with large datasets
 - Enable chunked writing or parallel execution
 - Split input files by chromosome or sample batches
 
