@@ -4,7 +4,7 @@ Colab-friendly implementation of FAS2rDNA.
 <img width="100" height="100" alt="FAS2rDNA logo" src="https://github.com/mahvin92/FAS2rDNA-Colab/blob/main/asset/FAS2rDNA%20logo/1.png" />
 FAS2rDNA is a lightweight, assembly‑aware reconstruction engine that converts genomic coordinates and annotations into multi-FASTA sequences. It supports short fragments to large regions (genes, isoforms, loci) across multiple species and assemblies, using a simple tabular input format that is optimized for downstream analytics and machine learning workflows.
 
-[▸ Launch FAS2rDNA-Colab on Google Colaboratory](https://colab.research.google.com/drive/1jy7oSK5UXCtEgCVADwXUXijXvNBL6JBu?usp=sharing)
+[▸ Launch FAS2rDNA-Colab on Google Colaboratory](https://fas2rdna.chordexbio.com/colab-access)
 
 
 ## FAS2rDNA-Colab Usage
@@ -40,7 +40,7 @@ The seq_loc field MUST assume ONLY the following format: ```genome_assembly:chro
 #### a. Launching the software:
 The FAS2rDNA-Colab can be opened in several ways:
 
-i) Launch from the shareable link here: [FAS2rDNA-Colab](https://colab.research.google.com/drive/1jy7oSK5UXCtEgCVADwXUXijXvNBL6JBu?usp=sharing)
+i) Launch from the shareable link here: [FAS2rDNA-Colab](https://fas2rdna.chordexbio.com/colab-access)
 
 ii) Download the FAS2rDNA-Colab notebook from the ```ipynb``` folder on [GitHub/FAS2rDNA-Colab](https://github.com/mahvin92/FAS2rDNA-Colab/tree/main/ipynb) and manually upload that in your Colab workspace ```File --> Upload Notebook```.
 
