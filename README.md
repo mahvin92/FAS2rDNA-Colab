@@ -1,11 +1,17 @@
 # FAS2rDNA-Colab
-Colab-friendly implementation of FAS2rDNA.
+Colab-friendly implementation of [FAS2rDNA](https://github.com/mahvin92/FAS2rDNA).
 
 <img width="100" height="100" alt="FAS2rDNA logo" src="https://github.com/mahvin92/FAS2rDNA-Colab/blob/main/asset/FAS2rDNA%20logo/1.png" />
 FAS2rDNA is a lightweight, assembly‑aware reconstruction engine that converts genomic coordinates and annotations into multi-FASTA sequences. It supports short fragments to large regions (genes, isoforms, loci) across multiple species and assemblies, using a simple tabular input format that is optimized for downstream analytics and machine learning workflows.
 
-[▸ Launch FAS2rDNA-Colab on Google Colaboratory](https://fas2rdna.chordexbio.com/colab-access)
 
+#### Links:
+
+Launch [FAS2rDNA-Colab on Google Colaboratory](https://fas2rdna.chordexbio.com/colab-access)
+
+Read the protocol here: [Protocols.io](https://dx.doi.org/10.17504/protocols.io.14egn1xr6v5d/v1)
+
+Visit the official wesite here: [FAS2rDNA by ChordexBio](https://fas2rdna.chordexbio.com/)
 
 ## FAS2rDNA-Colab Usage
 ### 1. Preparing your data
@@ -120,6 +126,11 @@ The following genome assemblies are currently supported in the v.1.0 of FAS2rDNA
 
 ## Reporting
 Comments and suggestions to improve FAS2rDNA-Colab are welcome. If you find any bug or problem, please open an [issue](https://github.com/mahvin92/FAS2rDNA-Colab/issues/new).
+
+## Citation
+De los Santos, M.I. (2025). FAS2rDNA-Colab: A cloud-based workflow for pan-cancer, isoform-wide miRNome reconstitution across TCGA cohorts. Protocols.io DOI: 10.17504/protocols.io.14egn1xr6v5d/v1
+
+De los Santos, M. (2025). High-throughput isoform-wide miRNome sequence reconstruction in the TCGA-LUAD cohort using FAS2rDNA. Protocols.io. DOI: 10.17504/protocols.io.rm7vzenqxvx1/v1
 
 ## Acknowledgement
 FAS2rDNA-Colab is powered by [ChordexBio](https://chordexbio.com/), [FAS2rDNA](https://github.com/mahvin92/FAS2rDNA) and [CodeEnigma](https://github.com/KrishnanSG/codeenigma), made with Python, and tested using Google Colab ❤️
