@@ -1,3 +1,5 @@
+> **Announcement:** Starting 2026 June 15, support ofr FAS2rDNA-Colab is now moved to FAS2rDNA Web, our most capable cloud-implementation yet without the need to install or setup a jupyter notebook. FAS2rDNA Web is accessible [through our website](https://fas2rdna.chordexbio.com/)
+
 # FAS2rDNA-Colab
 Colab-friendly implementation of [FAS2rDNA](https://github.com/mahvin92/FAS2rDNA).
 
